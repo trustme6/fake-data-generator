@@ -199,6 +199,7 @@ const FakeDataGenerator = () => {
     }));
 
     setData(newData);
+    // eslint-disable-next-line
   }, [region, errorsSlider, seed, rowsPerPage]);
 
  const getAlphabet = (region) => {
